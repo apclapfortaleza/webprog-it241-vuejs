@@ -1,4 +1,4 @@
-  const app = Vue.createApp({
+  const app2 = Vue.createApp({
    data() {
     return {
       message: "Tapos na new yir!!!"
