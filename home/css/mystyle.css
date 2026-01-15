@@ -8,6 +8,18 @@
       font-size: x-large;
       background-color: lightgreen;
 }
+#app3 > div {
+      border: solid black 1px;
+      width: 80%;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    img {
+      width: 70px;
+      margin: 10px;
+    }
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 70px;
