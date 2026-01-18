@@ -1,5 +1,5 @@
 <template>
-  <h1>Food</h1>
+  </personal>
   <div class="foods">
    <food-item/>
    <food-item2/>
@@ -9,10 +9,5 @@
 <script></script>
 
 <style>
-.foods{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: 10px;
-}
+
 </style>
