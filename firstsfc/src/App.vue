@@ -1,5 +1,5 @@
 <template>
-  </personal>
+  </personal-profile>
   <div class="foods">
    <food-item/>
    <food-item2/>
