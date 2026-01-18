@@ -1,5 +1,5 @@
 <template>
-  </personal-profile>
+  <personal-profile/>
   <div class="foods">
    <food-item/>
    <food-item2/>
@@ -9,5 +9,4 @@
 <script></script>
 
 <style>
-
 </style>
