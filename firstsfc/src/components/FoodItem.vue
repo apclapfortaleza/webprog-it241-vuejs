@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="vanilla">
     <h2>{{ name }}</h2>
     <p>{{ message }}</p>
   </div>
@@ -17,4 +17,10 @@ export default {
 </script>
 
 <style>
+ .vanilla {
+  background-color: blue;
+  padding: 2px;
+  border-radius: 2px;
+  color: white;
+ }
 </style>
