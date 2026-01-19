@@ -152,7 +152,7 @@ h1, h2 {
   width: 88%;
   height: 88%;
   border-radius: 100%;
-  background: url('assets/lans.jpg') center/cover no-repeat;
+  background: url('/assets/lans.jpg') center/cover no-repeat;
   opacity: 0;
   transform: translateY(-50%) scale(0.95); 
   transition: all 0.4s ease-in-out;
