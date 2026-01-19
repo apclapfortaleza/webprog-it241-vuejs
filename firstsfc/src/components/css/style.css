@@ -8,15 +8,18 @@ html {
   max-width: 100%;
   overflow-x: hidden; 
 }
-#app {
+template {
   width: 100%;
   overflow: visible;
-}
-body {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+  max-width: 100%;
+  overflow-x: hidden; 
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
+
 #particle-canvas {
   position: fixed;
   top: 0;
