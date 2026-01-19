@@ -447,7 +447,7 @@ let source;
           {
             name: "America's Next Freak",
             artist: "FM-Static",
-            img: ."/css/assets/song1.png",
+            img: "./css/assets/song1.png",
             audio: "music1.mp3",
           },
           {
