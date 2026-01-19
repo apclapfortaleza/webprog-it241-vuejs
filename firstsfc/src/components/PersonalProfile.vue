@@ -402,7 +402,7 @@ let source;
         media: [
           {
             type: "image",
-            src: "/assets/matchmakedemo.png",
+            src: "/assets/Matchmakedemo.png",
             alt: "Matchmake Demo",
           },
         ],
