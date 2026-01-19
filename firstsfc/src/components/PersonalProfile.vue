@@ -333,7 +333,7 @@
 
 <script setup>
   import { ref, reactive, onMounted } from 'vue';
-
+  import "./css/style.css";
 let audioCtx;
 let analyser;
 let dataArray;
