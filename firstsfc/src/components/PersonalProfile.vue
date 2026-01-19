@@ -47,7 +47,7 @@
           <div class="row w-100 align-items-center">
             <div class="col-lg-5 d-flex justify-content-center mb-4 mb-lg-0">
               <div class="edu-image-wrapper">
-                <img v-bind:src="activeEduImage" src="./css/assets/apc.jpg" id="edu-display-img" class="img-fluid rounded shadow-lg" alt="Education">
+                <img v-bind:src="activeEduImage" src="/assets/apc.jpg" id="edu-display-img" class="img-fluid rounded shadow-lg" alt="Education">
               </div>
             </div>
             <div class="col-lg-7 text-center text-lg-start">
@@ -346,7 +346,7 @@ let source;
         title: "(Project Rudy) Delivery App",
         subtitle: "Similar to Grab / Food Panda",
         desc: "A simple mobile delivery app featuring real-time tracking, order management, and a seamless checkout experience.",
-        image: "./css/assets/delivery.png",
+        image: "/assets/delivery.png",
         media: [
           {
             type: "youtube",
@@ -365,30 +365,30 @@ let source;
         title: "(Friendle) Interactive Choice Game",
         subtitle: "Chatting Strangers Parody",
         desc: "A web-based narrative experience mimicking random chat websites.",
-        image: "./css/assets/chat.png",
+        image: "/assets/chat.png",
       },
       {
         id: "ebook",
         title: "Voice Assisted E-Book",
         subtitle: "Accessibility-focused Reading",
         desc: "A simple python code with voice commands and text-to-speech technology.",
-        image: "./css/assets/Ebook.png",
+        image: "/assets/Ebook.png",
       },
       {
         id: "shoes",
         title: "(DropStock) Shoe Selling Website",
         subtitle: "Community Forum",
         desc: "Developed the social hub of the platform, allowing sneakerheads to discuss trends.",
-        image: "./css/assets/shoe.png",
+        image: "/assets/shoe.png",
         media: [
           {
             type: "image",
-            src: "./css/assets/dropstockdemo.png",
+            src: "/assets/dropstockdemo.png",
             alt: "DropStock Demo",
           },
           {
             type: "image",
-            src: "./css/assets/dropstockdemo2.png",
+            src: "/assets/dropstockdemo2.png",
             alt: "DropStock Demo 2",
           },
         ],
@@ -398,11 +398,11 @@ let source;
         title: "(La-Love) Love Tester",
         subtitle: "Front-end design",
         desc: "A matchmaking website where you measure your chance with your crush.",
-        image: "./css/assets/love.png",
+        image: "/assets/love.png",
         media: [
           {
             type: "image",
-            src: "./css/assets/matchmakedemo.png",
+            src: "/assets/matchmakedemo.png",
             alt: "Matchmake Demo",
           },
         ],
@@ -446,37 +446,37 @@ let source;
           {
             name: "America's Next Freak",
             artist: "FM-Static",
-            img: "./css/assets/song1.png",
+            img: "/assets/song1.png",
             audio: "music1.mp3",
           },
           {
             name: "Teenage Dirtbag",
             artist: "Wheatus",
-            img: "./css/assets/song2.png",
+            img: "/assets/song2.png",
             audio: "music2.mp3",
           },
           {
             name: "Famous Last Words",
             artist: "My Chemical Romance",
-            img: "./css/assets/song3.png",
+            img: "/assets/song3.png",
             audio: "music3.mp3",
           },
           {
             name: "Tears Over Beers",
             artist: "Modern Baseball",
-            img: "./css/assets/song4.png",
+            img: "/assets/song4.png",
             audio: "music4.mp3",
           },
           {
             name: "Bullet proof Love",
             artist: "Pierce the Veil",
-            img: "./css/assets/song5.png",
+            img: "/assets/song5.png",
             audio: "music5.mp3",
           },
           {
             name: "Hard Times",
             artist: "Paramore",
-            img: "./css/assets/song6.png",
+            img: "/assets/song6.png",
             audio: "music6.mp3",
           },
         ],
@@ -544,7 +544,7 @@ let source;
     const playCD = (cd) => {
       setupAnalyser();
       selectedCD.value = cd;
-      audioPlayer.src = "./css/assets/" + cd.audio;
+      audioPlayer.src = "/assets/" + cd.audio;
       audioPlayer.load();
       audioPlayer
         .play()
@@ -633,19 +633,19 @@ let source;
 
     // --- HEART GALLERY LOGIC ---
     const galleryItems = ref([
-      { type: "image", src: "./css/assets/gallery/1.jpg" },
-      { type: "image", src: "./css/assets/gallery/2.jpg" },
-      { type: "image", src: "./css/assets/gallery/3.jpg" },
-      { type: "image", src: "./css/assets/gallery/4.jpg" },
-      { type: "image", src: "./css/assets/gallery/5.png" },
-      { type: "image", src: "./css/assets/gallery/6.jpg" },
-      { type: "image", src: "./css/assets/gallery/7.jpg" },
-      { type: "image", src: "./css/assets/gallery/8.jpg" },
-      { type: "video", src: "./css/assets/gallery/9.mp4" },
-      { type: "image", src: "./css/assets/gallery/10.jpg" },
-      { type: "image", src: "./css/assets/gallery/11.jpg" },
-      { type: "image", src: "./css/assets/gallery/12.jpg" },
-      { type: "image", src: "./css/assets/gallery/13.jpg" },
+      { type: "image", src: "/assets/gallery/1.jpg" },
+      { type: "image", src: "/assets/gallery/2.jpg" },
+      { type: "image", src: "/assets/gallery/3.jpg" },
+      { type: "image", src: "/assets/gallery/4.jpg" },
+      { type: "image", src: "/assets/gallery/5.png" },
+      { type: "image", src: "/assets/gallery/6.jpg" },
+      { type: "image", src: "/assets/gallery/7.jpg" },
+      { type: "image", src: "/assets/gallery/8.jpg" },
+      { type: "video", src: "/assets/gallery/9.mp4" },
+      { type: "image", src: "/assets/gallery/10.jpg" },
+      { type: "image", src: "/assets/gallery/11.jpg" },
+      { type: "image", src: "/assets/gallery/12.jpg" },
+      { type: "image", src: "/assets/gallery/13.jpg" },
     ]);
 
     const showModal = ref(false);
