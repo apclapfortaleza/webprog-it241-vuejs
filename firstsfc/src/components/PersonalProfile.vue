@@ -56,13 +56,13 @@
                 <img src="https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUycXJrNm94MnRqN2t3aDdybGZ4OHV1ZHRuYThtc3Vtb3JjYWx1NmN0ZyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/C0L6c8KLHAiY0/200w.gif" alt="icon" class="header-gif ms-3" style="width: 50px;">
               </div>
               <ul class="list-unstyled custom-list">
-                <li class="mb-3" v-on:mouseenter="changeEduImage('./css/assets/apc.jpg')">
+                <li class="mb-3" v-on:mouseenter="changeEduImage('/assets/apc.jpg')">
                   <i class="fas fa-university me-2"></i> Currently taking <strong>Bachelor of Information Technology</strong> at Asia Pacific College
                 </li>
-                <li class="mb-3" v-on:mouseenter="changeEduImage('./css/assets/sti.jpg')">
+                <li class="mb-3" v-on:mouseenter="changeEduImage('/assets/sti.jpg')">
                   <i class="fas fa-code me-2"></i> Senior Highschool <strong>'Mobile App & Web Development'</strong> graduate at STI Pasay-EDSA
                 </li>
-                <li class="mb-3" v-on:mouseenter="changeEduImage('./css/assets/apec.jpg')">
+                <li class="mb-3" v-on:mouseenter="changeEduImage('/assets/apec.jpg')">
                   <i class="fas fa-graduation-cap me-2"></i> Highschool graduate at APEC Schools Roxas.
                 </li>
               </ul>
@@ -333,7 +333,6 @@
 
 <script setup>
   import { ref, reactive, onMounted } from 'vue';
-  import "./css/style.css";
 let audioCtx;
 let analyser;
 let dataArray;
@@ -763,7 +762,7 @@ let source;
         link: "https://emojicombos.com/heart",
       },
     ]);
-    const activeEduImage = ref("./css/assets/apc.jpg");
+    const activeEduImage = ref("/assets/apc.jpg");
 
     const changeEduImage = (newImage) => {
       activeEduImage.value = newImage;
