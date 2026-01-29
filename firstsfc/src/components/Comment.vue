@@ -14,7 +14,6 @@
       margin: 10px;
       padding: 10px;
       background-color: lightyellow;
-      background: inherit;
     }
   </style>
 
